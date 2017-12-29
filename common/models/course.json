@@ -11,7 +11,7 @@
       "type": "string",
       "required": true
     },
-    "discription": {
+    "description": {
       "type": "string",
       "required": true
     },
