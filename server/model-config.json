@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mlab-001-pawpatrol-course-api"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mlab-001-pawpatrol-course-api",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mlab-001-pawpatrol-course-api",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mlab-001-pawpatrol-course-api",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mlab-001-pawpatrol-course-api",
     "public": false
   },
   "course": {
-    "dataSource": "db",
+    "dataSource": "mlab-001-pawpatrol-course-api",
     "public": true
   }
 }

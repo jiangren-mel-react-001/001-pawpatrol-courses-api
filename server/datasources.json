@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mlab-001-pawpatrol-course-api": {
+    "host": "ds135537.mlab.com",
+    "port": 35537,
+    "url": "mongodb://user:user@ds135537.mlab.com:35537/courses",
+    "database": "courses",
+    "password": "user",
+    "name": "mlab-001-pawpatrol-course-api",
+    "user": "user",
+    "connector": "mongodb"
   }
 }
