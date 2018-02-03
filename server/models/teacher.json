@@ -1,0 +1,30 @@
+{
+  "name": "teacher",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "teacher"
+    },
+    "age": {
+      "type": "number",
+      "default": 30
+    },
+    "image": {
+      "type": "string",
+      "default": "n"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
