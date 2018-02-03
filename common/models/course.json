@@ -15,6 +15,10 @@
       "type": "string",
       "required": true
     },
+    "image": {
+      "type": "string",
+      "default": "https://images.pexels.com/photos/789141/pexels-photo-789141.jpeg?h=350&auto=compress&cs=tinysrgb"
+    },
     "duration": {
       "type": "number",
       "required": true,
