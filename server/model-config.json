@@ -42,5 +42,9 @@
   "Todo": {
     "dataSource": "mlab-001-pawpatrol-course-api",
     "public": true
+  },
+  "course2": {
+    "dataSource": "mlab-001-pawpatrol-course-api",
+    "public": true
   }
 }

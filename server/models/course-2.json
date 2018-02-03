@@ -1,0 +1,26 @@
+{
+  "name": "course2",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "react"
+    },
+    "discription": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "default": "https://images.pexels.com/photos/789141/pexels-photo-789141.jpeg?h=350&auto=compress&cs=tinysrgb"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
