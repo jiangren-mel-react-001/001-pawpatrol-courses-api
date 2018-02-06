@@ -1,0 +1,34 @@
+{
+  "name": "class",
+  "plural": "classes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "class"
+    },
+    "start": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "course": {
+      "type": "belongsTo",
+      "model": "course",
+      "foreignKey": "courseId"
+    },
+    "teacher": {
+      "type": "belongsTo",
+      "model": "teacher",
+      "foreignKey": "teacherId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

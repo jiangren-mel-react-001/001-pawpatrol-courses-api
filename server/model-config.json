@@ -50,5 +50,9 @@
   "teacher": {
     "dataSource": "mlab-001-pawpatrol-course-api",
     "public": true
+  },
+  "class": {
+    "dataSource": "mlab-001-pawpatrol-course-api",
+    "public": true
   }
 }

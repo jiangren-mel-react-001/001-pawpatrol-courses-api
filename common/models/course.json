@@ -29,7 +29,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "teachers": {
+      "type": "hasMany",
+      "model": "teacher",
+      "foreignKey": "courseId",
+      "through": "class"
+    }
+  },
   "acls": [],
   "methods": {}
 }
