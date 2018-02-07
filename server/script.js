@@ -1,0 +1,3 @@
+lesson.find({include: ['teacher', 'course']}, function() {
+    //...
+});

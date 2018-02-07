@@ -1,6 +1,6 @@
 {
-  "name": "class",
-  "plural": "classes",
+  "name": "lesson",
+  "plural": "lessons",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,7 +10,7 @@
     "name": {
       "type": "string",
       "required": true,
-      "default": "class"
+      "default": "lesson"
     },
     "start": {
       "type": "date"

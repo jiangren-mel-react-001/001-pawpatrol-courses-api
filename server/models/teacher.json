@@ -29,7 +29,7 @@
       "type": "hasMany",
       "model": "course",
       "foreignKey": "teacherId",
-      "through": "class"
+      "through": "lesson"
     }
   },
   "acls": [],
